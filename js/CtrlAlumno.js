@@ -50,10 +50,10 @@ async function busca() {
           import("./tipos.js").
                   Alumno} */
       const data = doc.data();
-      forma.matricula.value = data.matricula;
-      forma.nombre.value = data.nombre || "";
-      forma.telefono.value = data.telefono || "";
-      forma.grupo.value = data.grupo || "";
+      forma.cod.value = data.cod;
+      forma.prenda.value = data.prenda || "";
+      forma.marca.value = data.marca || "";
+      forma.talla.value = data.talla || "";
       forma.fecha.value = data.fecha || "";
       forma.addEventListener(
         "submit", guarda);
