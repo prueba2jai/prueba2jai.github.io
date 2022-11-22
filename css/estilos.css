@@ -13,6 +13,10 @@ body {
   max-width: 640px;
   margin: 0 auto;
   padding: 0.5rem;
+  background-image: url(ganchos.jpg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
