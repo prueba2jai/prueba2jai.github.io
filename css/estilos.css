@@ -13,7 +13,7 @@ body {
   max-width: 640px;
   margin: 0 auto;
   padding: 0.5rem;
-  background-image: url(gancho1.jpg) ;
+  background-image: url(ganchos.jpg) ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -43,7 +43,9 @@ header input {
 }
 
 h1 {
+  color: #000000;
   margin: 0.5rem 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 figure img {
