@@ -66,10 +66,10 @@ function htmlFila(doc) {
    * @type {import("./tipos.js").
                   Alumno} */
   const data = doc.data();
-  const codigo = cod(data.codigo);
-  const prenda = cod(data.prenda);
-  const marca = cod(data.marca);
-  const talla = cod(data.talla);
+  const matricula = cod(data.matricula);
+  const nombre = cod(data.nombre);
+  const telefono = cod(data.telefono);
+  const grupo = cod(data.grupo);
   var fsf= cod(data.fecha);
   var fecha = new Date(fsf);
   var espacio="[   -   ]";
@@ -82,7 +82,7 @@ function htmlFila(doc) {
       <a class="fila" href=
   "alumno.html?${parámetros}">
         <strong class="primario">
-          ${codigo} ${prenda} ${dformat} ${marca} ${talla} 
+          ${matricula} ${nombre} ${dformat} ${telefono} ${grupo}
         </strong>
       </a>
      

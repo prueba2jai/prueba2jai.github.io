@@ -38,21 +38,21 @@ async function guarda(evt) {
     evt.preventDefault();
     const formData =
       new FormData(forma);
-    const codigo = getString(
-        formData, "codigo").trim();  
-    const prenda = getString(formData, "prenda").trim();
-    const marca = getString(formData, "marca").trim();
-    const talla = getString(formData, "talla").trim();
+    const matricula = getString(
+        formData, "matricula").trim();  
+    const nombre = getString(formData, "nombre").trim();
+    const telefono = getString(formData, "telefono").trim();
+    const grupo = getString(formData, "grupo").trim();
     const fecha = getString(formData, "fecha").trim();
     /**
      * @type {
         import("./tipos.js").
                 Alumno} */
     const modelo = {
-      codigo,
-      prenda,
-      marca,
-      talla,
+      matricula,
+      nombre,
+      telefono,
+      grupo,
       fecha 
     };
     await daoAlumno.
