@@ -82,7 +82,7 @@ function htmlFila(doc) {
       <a class="fila" href=
   "alumno.html?${parámetros}">
         <strong class="primario">
-          ${codigo} ${prenda} ${marca} ${talla} ${dformat}
+          ${codigo} ${prenda} ${dformat} ${marca} ${talla} 
         </strong>
       </a>
      
