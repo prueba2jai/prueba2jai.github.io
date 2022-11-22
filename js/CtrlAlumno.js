@@ -50,7 +50,7 @@ async function busca() {
           import("./tipos.js").
                   Alumno} */
       const data = doc.data();
-      forma.cod.value = data.cod;
+      forma.codigo.value = data.codigo;
       forma.prenda.value = data.prenda || "";
       forma.marca.value = data.marca || "";
       forma.talla.value = data.talla || "";
@@ -76,8 +76,8 @@ async function guarda(evt) {
     evt.preventDefault();
     const formData =
       new FormData(forma);
-    const cod = getString(
-        formData, "cod").trim();  
+    const codigo = getString(
+        formData, "codigo").trim();  
     const prenda = getString(formData, "prenda").trim();
     const marca = getString(formData, "marca").trim();
     const talla = getString(formData, "talla").trim();
@@ -87,7 +87,7 @@ async function guarda(evt) {
         import("./tipos.js").
                 Alumno} */
     const modelo = {
-      cod, 
+      codigo, 
       prenda,
       marca,
       talla,
