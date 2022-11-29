@@ -25,6 +25,7 @@ header {
   top: 0;
   background-color:
     var(--color-header);
+    border-radius: 10px;
 }
 
 .herramientas {
